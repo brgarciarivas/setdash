@@ -1,0 +1,95 @@
+.trello-card-contaienr{
+	width: 500px;
+	display: flex;
+	height: 300px;
+
+	.trello-container{
+		flex-wrap:wrap;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-left: 15px;
+
+		.sprint-tile-title{
+			width: 110px;
+			height: 90px;
+			background-color: #313542;
+			color: white;
+			font-family: Roboto, sans-serif;
+			border-radius: 3px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 13px;
+			margin-bottom: 10px;
+			p{
+				margin: 0;
+				font-size: 1.5vw;
+			}
+		}
+
+		.trello-tile{
+			border-radius: 2px;
+			width: 110px;
+			height: 90px;
+			background: #ffffff;
+			margin-right: 13px;
+			margin-bottom: 10px;
+			align-items: center;
+			text-align: center;
+			display: flex;
+
+			p{
+				font-family: Roboto, sans-serif;
+				color: #22a7f0;
+				font-size: 1.5vw;
+				margin: 0;
+			}
+
+			
+		}
+
+	}
+}
+
+@media(max-width: 1000px){
+	.trello-card-contaienr{
+	width: 400px;
+	height: 240px;
+
+	.trello-container{
+		
+
+		.sprint-tile-title{
+			width: 90px;
+			height: 70px;
+			margin-right: 13px;
+			p{
+				margin: 0;
+				font-size: 1.5vw;
+			}
+		}
+
+		.trello-tile{
+			width: 90px;
+			height: 70px;
+			align-items: center;
+			text-align: center;
+			display: flex;
+
+			p{
+				font-size: 1.5vw;
+			}
+
+			
+		}
+
+	}
+}
+
+}
+
+
+
